@@ -17,9 +17,15 @@
   <img src="https://drive.google.com/uc?export=view&id=1tUJID6xNlKNy8sQTxtMHFnabbvcBKyvC" width="10%" />
 </p>
 
+https://drive.google.com/file/d/1YzMjpiM7mJJrrLyWBHEz1-JeEY7sMSbM/view?usp=sharing
+##  Video
+<video width="100%" controls>
+  <source src="https://drive.google.com/file/d/1YzMjpiM7mJJrrLyWBHEz1-JeEY7sMSbM/view?usp=sharing" type="video/mp4">
+</video>
+
 ## ⚙️ O'rnatish va ishga tushirish
 
 1.Repozitoriyni klonlash:
 
 ```bash
-https://github.com/JavohirOromov/BlockShuffle15.git
+https://github.com/JavohirOromov/RecyclerViewMulti.git

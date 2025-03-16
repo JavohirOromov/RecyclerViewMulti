@@ -19,9 +19,8 @@
 
 https://drive.google.com/file/d/1YzMjpiM7mJJrrLyWBHEz1-JeEY7sMSbM/view?usp=sharing
 ##  Video
-<video width="100%" controls>
-  <source src="https://drive.google.com/file/d/1YzMjpiM7mJJrrLyWBHEz1-JeEY7sMSbM/view?usp=sharing" type="video/mp4">
-</video>
+
+<img src="https://drive.google.com/file/d/1YzMjpiM7mJJrrLyWBHEz1-JeEY7sMSbM/view?usp=sharing" width="400"/>
 
 ## ⚙️ O'rnatish va ishga tushirish
 

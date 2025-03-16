@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/deliveryTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Delivery address"
+        android:textColor="#99000000"
+        android:textSize="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salatiga City, Central Java"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="@id/deliveryTv"
+        app:layout_constraintTop_toBottomOf="@id/deliveryTv" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="-2dp"
+        android:src="@drawable/baseline_keyboard_arrow_down_24"
+        app:layout_constraintBottom_toBottomOf="@id/name"
+        app:layout_constraintDimensionRatio="1"
+        app:layout_constraintLeft_toRightOf="@id/name"
+        app:layout_constraintTop_toTopOf="@id/name" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/buy"
+        app:layout_constraintBottom_toBottomOf="@id/name"
+        app:layout_constraintRight_toLeftOf="@id/notification"
+        app:layout_constraintTop_toTopOf="@id/deliveryTv" />
+
+    <ImageView
+        android:id="@+id/notification"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/notification"
+        app:layout_constraintBottom_toBottomOf="@id/name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/deliveryTv" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_search"
+        android:iconifiedByDefault="false"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="0.2dp"
+        android:queryHint="Search here"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rootRv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

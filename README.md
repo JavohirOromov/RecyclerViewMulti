@@ -18,7 +18,7 @@
 </p>
 
 ## 📹 Video
-<a href="https://ibb.co/5WWmH7mN"><img src="https://i.ibb.co/VWWR4KR7/Screen-ezgif-com-video-to-gif-converter.gif" alt="Screen-ezgif-com-video-to-gif-converter" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>i want pics</a><br />
+![Demo GIF](https://i.ibb.co/VWWR4KR7/Screen-ezgif-com-video-to-gif-converter.gif)
 
 ## ⚙️ O'rnatish va ishga tushirish
 
